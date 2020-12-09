@@ -1,0 +1,33 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: solid 1px black;
+    position: absolute;
+    /* left: 485px; */
+    top: 200px;
+    margin: 0 40%;
+    border-radius: 6px;
+    padding: 8px;
+    background: honeydew;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0px;
+    background: greenyellow;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+input{
+   
+        height: 30px;
+    
+}
