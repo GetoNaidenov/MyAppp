@@ -1,0 +1,19 @@
+<header>
+    <div>
+        <i class="fab fa-angular"></i>
+    </div>
+
+<nav *ngIf="!userService.isLogged">
+    <a routerLink="main">Home</a>
+    <a routerLink="login" >Login</a>
+    <a routerLink="register">Register</a>
+</nav>
+
+<nav *ngIf="userService.isLogged">
+    <a class="username">Hello {{getName()}}</a>
+    <a routerLink="home">Home</a>
+    <a routerLink="post">Post</a>
+    <a routerLink="home" (click)="logautHandler()">Logaut</a>
+</nav>
+
+</header>
