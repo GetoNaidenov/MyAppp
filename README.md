@@ -1,27 +1,25 @@
 # MyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+This is project  Angular simple app whith 2 modules ,2 routes , 10 components and 4 servicce. 
+This aplication is students project on me curse.
 
+the app public part and private part,
+one dinamic html part on publick  and 2 private dinamic html part
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Backend is on https://develop.backendless.com/, i have 2 data base photo and post;
+autho:  https://develop.backendless.com/ for token sistem;
+app integrated (HttpClientModule,BrowserMOdule,RouterModule) take tamplets for visual data;
+app have Observable and interceptor.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+front end (html - css);
 
-## Build
+start server (ng serve): localhost/4200,
+first open home component  next(register or login)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+this is beginner simple app.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
